@@ -1,0 +1,21 @@
+body{
+    background: #110033;
+}
+
+.flex-container{
+    display: flex;
+
+    justify-content: center;
+}
+
+#buttons{
+    justify-content: space-around;
+}
+
+p{
+    text-align: center;
+
+    color: #88bb00;
+
+    font-size: 16px;
+}
