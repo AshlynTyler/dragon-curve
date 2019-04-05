@@ -208,7 +208,10 @@ function foldAni(){
 
         $("#unfold-count").text(unfoldCount)
 
-        $(".btn-large").removeClass("disabled btn-flat")
+        if(unfoldCount !== 0)
+            $("#fold").removeClass("disabled btn-flat")
+
+            $("#unfold").removeClass("disabled btn-flat")
 
         if(unfoldCount < 14)
             $("#warning").css("display","none")
