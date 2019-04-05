@@ -9,7 +9,11 @@
             Dragon Curve
         </title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
         <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
             <!-- jquery  -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,11 +26,14 @@
 
         <div>
             <canvas id="dc-canvas" width=1000px height=700px></canvas>
+            <h2>Unfolded <span id="unfold-count">0</span> times</h2>
+            <p id = "warning">(This might start to lag)</p>
             <div class ="flex-container" id="buttons">
-                <button id="fold">Fold</button>
+                <a id="fold" class=" btn-large pink darken-2">Fold</a>
 
-                <button id="unfold">Unfold</button>
+                <a id="unfold" class=" btn-large pink darken-2">Unfold</a>
             </div>
+
             <p>This line has been folded in half infinately many times.</p>
             <p>Let's try unfolding it!</p>
         </div>

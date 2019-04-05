@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
     background: #110033;
 }
@@ -9,7 +13,7 @@ body{
 }
 
 #buttons{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 p{
@@ -17,5 +21,20 @@ p{
 
     color: #88bb00;
 
-    font-size: 16px;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+
+    color: #88bb00;
+}
+
+span{
+    color: #c2185b;
+}
+
+#warning{
+    color: #c2185b;
+    display: none;
 }
