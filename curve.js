@@ -118,7 +118,7 @@ $("#unfold").click(function(){
 })
 
 $("#fold").click(function(){
-    if(!inAni){
+    if(!inAni  && unfoldCount !== 0){
         counter = 90;
 
         foldInter = setInterval(function(){
